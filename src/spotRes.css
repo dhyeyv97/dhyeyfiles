@@ -1,0 +1,965 @@
+@media (max-width:1300px) { 
+
+}
+@media (max-width:1230px) {
+
+    .para-home {
+        font-size: 50px;
+        line-height: 1.5;
+        color: white;
+        font-weight: 800;
+        /* width: 90%; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-bottom: 20px;
+      }
+
+      .footMain li {
+        font-size: 14px;
+        color: white;
+        margin-bottom: 20px;
+      }
+
+      /* .card-grid {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 15px;
+      } */
+      .cardsS {
+        width: 140px;
+        height: 90px;
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: pink;
+      }
+      
+
+ }
+
+ @media (max-width:1070px) {
+
+
+ }
+
+ @media (max-width:991px) { 
+
+
+  .para-home {
+    font-size: 40px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 800;
+    /* width: 90%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 20px;
+  }
+    .navbar-toggler-icon {
+        color: white;
+    } 
+    .navbar-toggler:focus {
+        box-shadow: none;
+       }
+    
+     .menu-navbar-nav  {
+          text-align: center;
+       }
+     .nav-item .nav-link {
+        font-size: 18px;
+        margin-top: 15px;
+       }
+      .nav-item:last-child .nav-link {
+        margin-bottom: 20px;
+       }
+
+      .navbar-collapse {
+        text-align: center;
+        padding: 10px;
+        z-index: 1000;
+        background-color: black;
+       }
+       .menu-navbar-nav .fa-slash {
+        display: none;
+       }
+       .nav-link:hover {
+      color: rgb(53, 218, 53);
+       }
+       .home-main {
+        background: url("https://www.scdn.co/i/free/bubbles-dktp.svg") center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));;
+        height: 550px;
+        /* padding-top: 100px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+       .home-img {
+        height: 400px;
+        width: 200px;
+        margin-bottom: 20px;
+        }
+
+       .btn-home{
+        font-size: 14px;
+        border-radius: 120px;
+        font-weight: 500;
+        border-radius: 120px;
+        width: fit-content;
+        padding: 10px 26px;
+        color: black;
+      }
+
+      .smartphone {
+        position: relative;
+        width: 250px;
+        height: 470px;
+        overflow: hidden;
+        margin: auto;
+        border: 8px white solid;
+        border-top-width: 60px;
+        margin-top: 125px;
+        border-radius: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      /* The horizontal line on the top of the device */
+      .smartphone:before {
+        content: '';
+        transform: translate(-50%, -50%);
+        background: #333;
+        border-radius: 10px;
+      }
+
+      .features {
+
+        display: flex;
+        justify-content: center;
+         flex-direction: column;
+      }
+      .featuresMain {
+        justify-content: center;
+       gap: 40px;
+
+       }
+
+       .f-title {
+        font-size: 38px;
+        color: black;
+        font-weight: 800;
+      }
+      
+      .ft-title {
+        font-size: 18px;
+        color: black;
+        font-weight: 800;
+      }
+
+      .ft-para {
+        font-size: 16px;
+        width: 100%;
+        margin: 0px auto;
+        color: black;
+        font-weight: 420;
+      }
+
+
+
+      .fa-circle-play {
+        font-size: 60px;
+        color: white;
+        border: 1px solid black;
+        padding: 30px;
+        border-radius: 50%;
+        background-color: rgb(189, 14, 224);
+        /* color: rgb(189, 14, 224); */
+      }
+      
+      
+       .fa-play {
+        font-size: 30px;
+        /* padding: 15px; */
+        color: rgb(189, 14, 224);
+       }
+      .icons-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          border-radius: 50%;
+          border: 1px solid transparent;
+          background-color: white;
+          width: 60px;
+          height: 60px; 
+      
+      }
+      .outIcon1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));;
+        border: 1px solid transparent;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 40px;
+      
+      }
+      
+      .featuresMain {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+      }
+      .outIcon3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));;
+        border: 1px solid transparent;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 40px;
+      }
+      
+      .icons-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px; 
+      }
+      .icons-2 .fa-slash {
+        font-size: 30px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+        transform: rotate(30deg);
+        width: 100px;
+        height: 100px;
+      
+        /* width: 24px !important;
+        height: 24px !important; */
+      
+      }
+      .slash {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 60px;
+        border: 1px solid red;
+      }
+      
+      .fa-grip-lines-vertical {
+        font-size: 50px;
+        color: white;
+      }
+      
+      
+      .fa-heart {
+        font-size: 27px;
+        /* padding: 15px; */
+        color: rgb(189, 14, 224);
+        /* background-color: rgb(189, 14, 224) ; */
+      }
+      
+      
+      .icons-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          border-radius: 50%;
+          border: 1px solid transparent;
+          background-color: white;
+          width: 60px;
+          height: 60px; 
+      
+      }
+      .outIcon3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));
+        border: 1px solid transparent;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 40px;
+      
+      }
+      
+      .fa-bolt {
+        color: white;
+        font-size: 60px;
+      }
+      
+      .icons-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        /* background-color: rgb(189, 14, 224); */
+        background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));
+        border: 1px solid transparent;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 40px;
+      }
+
+      .ics {
+        margin-top: -12px;
+      }
+
+      .free {
+        height: 300px;
+      }
+
+      .p-free {
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+      }
+      
+      .readyText {
+        font-size: 50px;
+      
+      }
+
+      .socialCon .fa-brands {
+        color: white;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(44, 43, 43);
+        border-radius: 50%;
+        font-size: 22px;
+        width: 45px;
+        height: 45px;
+        border: 1px solid black;
+      }
+
+
+      .headPrem {
+        color: white;
+        font-size: 30px;
+      }
+      .paraPrem {
+        color: white;
+        font-size: 20px;
+      } 
+      .preBtn1 {
+        color: white;
+        background-color: black;
+        border: 1px solid black;
+        font-size: 12px;
+        border-radius: 120px;
+        font-weight: 500;
+        width: fit-content;
+        padding: 14px 30px;
+        color: white;
+      }
+
+      .preBtn2 {
+        color: white;
+        border: 2px solid white;
+        font-size: 12px;
+        border-radius: 120px;
+        font-weight: 500;
+        width: fit-content;
+        padding: 14px 30px;
+        background-color: transparent;
+      
+      }
+
+       .card-grid {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 15px;
+      }
+      
+      .supportTitle {
+        font-size: 60px;
+        color: white;
+        font-weight: 800;
+        }
+        
+        .supportLog {
+          color: rgb(204, 187, 187);
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+ }
+
+
+@media (max-width:767px) { 
+
+  .home-main {
+    height: 400px;
+   }
+
+   .para-home {
+    font-size: 30px; 
+  }
+
+
+  .home-img {
+    height: 270px;
+    width: fit-content;
+    margin-bottom: 20px;
+    } 
+
+  .smartphone {
+    position: relative;
+    /* content: url(https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b); */
+    width: 150px;
+    height: 350px;
+    overflow: hidden;
+    margin: auto;
+    border: 8px white solid;
+    border-top-width: 60px;
+    margin-top: 90px;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featuresMain {
+    flex-direction: column;
+  }
+  .features {
+    height: auto; 
+  }
+  .fts {
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    gap: 45px; 
+  }
+  .ft-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .f-title {
+    font-size: 25px;
+    color: black;
+    margin-top: 20px ;
+    font-weight: 800;
+  }
+  
+  .ft-title {
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+  }
+  
+  .ft-para {
+    margin: 0px auto;
+    color: black;
+    font-size: 14px;
+    font-weight: 420;
+  }
+  .ft-con {
+    display: inline-block;
+  }
+
+
+
+  .fa-play {
+    font-size: 25px;
+    /* padding: 15px; */
+    color: rgb(189, 14, 224);
+   }
+  .icons-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      /* border-radius: 50%; */
+      border-radius: 1250px;
+      border: 1px solid transparent;
+      background-color: white;
+      width: 50px;
+      height: 50px; 
+  
+  }
+  .outIcon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    border-radius: 150px;
+    background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+  
+  }
+  
+  
+  .icons-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px; 
+  }
+  .icons-2 .fa-slash {
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    transform: rotate(30deg);
+    width: 100px;
+    height: 100px;
+  
+    /* width: 24px !important;
+    height: 24px !important; */
+  
+  }
+  .slash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 60px;
+    border: 1px solid red;
+  }
+  
+  .fa-grip-lines-vertical {
+    font-size: 40px;
+    color: white;
+  }
+  
+  
+  .fa-heart {
+    font-size: 25px;
+    /* padding: 15px; */
+    color: rgb(189, 14, 224);
+    /* background-color: rgb(189, 14, 224) ; */
+  }
+  
+  
+  .icons-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      background-color: white;
+      width: 50px;
+      height: 50px; 
+  
+  }
+  .outIcon3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));
+    border: 1px solid transparent;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+  
+  }
+  
+  .fa-bolt {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .icons-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* background-color: rgb(189, 14, 224); */
+    background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));
+    border: 1px solid transparent;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .readyText {
+    font-size: 40px;
+  
+  }
+
+  .footer {
+    background-color: black;
+    height: auto;
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .spotFoot {
+    margin-bottom: 20px;
+  }
+
+  .credit {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .credMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cred2 {
+    display: flex;
+    gap: 10px;
+  }
+
+
+  .headPrem {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  .paraPrem {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  } 
+  .preBtn1 {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 10px;
+    border-radius: 120px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 14px 30px;
+    color: white;
+  }
+
+  .preBtn2 {
+    color: white;
+    border: 2px solid white;
+    font-size: 10px;
+    border-radius: 120px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 14px 30px;
+    background-color: transparent;
+  
+  }
+
+  .support {
+    height: auto;
+    padding: 50px 0px ;
+
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 15px;
+  }
+  
+  .supportTitle {
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    }
+    
+    .supportLog {
+      color: rgb(204, 187, 187);
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .cardsS {
+      width: 220px;
+      height: 90px;
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      background-color: pink;
+    }
+
+
+
+}
+
+@media (max-width:576px) { 
+
+  .home-main {
+    height: 350px;
+   }
+
+
+  .para-home {
+    font-size: 20px;
+  }
+
+  .btn-home{
+    font-size: 10px;
+    border-radius: 120px;
+    font-weight: 500;
+    border-radius: 120px;
+    width: fit-content;
+    padding: 8px 18px;
+    color: black;
+  }
+
+  .home-img {
+    height: 240px;
+    width: fit-content;
+    margin-bottom: 20px;
+    } 
+
+  .smartphone {
+    position: relative;
+    /* content: url(https://i.scdn.co/image/ab678e040000ed3aed58911aecc6dbc16949f40b); */
+    width: 150px;
+    height: 300px;
+    overflow: hidden;
+    margin: auto;
+    border: 8px white solid;
+    border-top-width: 40px;
+    margin-top: 90px;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fa-play {
+    font-size: 20px;
+    /* padding: 15px; */
+    color: rgb(189, 14, 224);
+   }
+  .icons-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      background-color: white;
+      width: 40px;
+      height: 40px; 
+  
+  }
+  .outIcon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    border-radius: 150px;
+    background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));;
+    border: 1px solid transparent;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0px;
+  
+  }
+  
+  
+  .icons-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px; 
+  }
+  .icons-2 .fa-slash {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    transform: rotate(30deg);
+    width: 80px;
+    height: 100px;
+  
+    /* width: 24px !important;
+    height: 24px !important; */
+  
+  }
+  .slash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 60px;
+    border: 1px solid red;
+  }
+  
+  .fa-grip-lines-vertical {
+    font-size: 24px;
+    color: white;
+  }
+  
+  
+  .fa-heart {
+    font-size: 20px;
+    /* padding: 15px; */
+    color: rgb(189, 14, 224);
+    /* background-color: rgb(189, 14, 224) ; */
+  }
+  
+  
+  .icons-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      border-radius: 50%;
+      border: 1px solid transparent;
+      background-color: white;
+      width: 40px;
+      height: 40px; 
+  
+  }
+  .outIcon3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));
+    border: 1px solid transparent;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .fa-bolt {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .icons-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* background-color: rgb(189, 14, 224); */
+    background: linear-gradient(rgb(238, 36, 204), rgb(100, 15, 212));
+    border: 1px solid transparent;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0px;
+  }
+
+
+  .free-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .p-free {
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+  }
+
+  .ques {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  .readyMain {
+    height: 350px;
+  }
+
+  .readyText {
+    font-size: 30px;
+  
+  }
+  .cpara {
+    color: rgb(168, 159, 159);
+    font-size: 10px;
+  } 
+
+  .cred1 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+
+  .headPrem {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+  .paraPrem {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  } 
+  .preBtn1 {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-size: 10px;
+    border-radius: 120px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 14px 30px;
+    color: white;
+  }
+
+  .preBtn2 {
+    color: white;
+    border: 2px solid white;
+    font-size: 10px;
+    border-radius: 120px;
+    font-weight: 500;
+    width: fit-content;
+    padding: 14px 30px;
+    background-color: transparent;
+  
+  }
+
+  .termPara {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 20px;
+  } 
+
+  .cardsS {
+    width: 180px;
+    height: 90px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: pink;
+  }
+
+
+}
